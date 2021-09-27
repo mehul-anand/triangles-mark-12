@@ -1,12 +1,42 @@
+HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is it a Triangle (think emoji)</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+    <nav class="nav-bar">
+        <h2>All about Triangles</h2>
+        <ul class="nav-pills">
+          <li class="list-inline">
+            <a class="link list link-active" href="index.html">Is it a traingle</a>
+          </li>
+          <li class="list-inline">
+            <a class="link list" href="quiz.html">Quiz time</a>
+          </li>
+          <li class="list-inline">
+            <a class="link list" href="hypotenuse.html">Find the hypotenuse</a>
+          </li>
+          <li class="list-inline">
+            <a class="link list" href="area.html">Find the area</a>
+          </li>
+        </ul>
+      </nav>
+    <div class="container">
+        <h1>Is it a Triangle ?</h1>
+        <label for="angle-1">Angle 1</label>
+        <input type="number" class="angle-input input-class">
+        <label for="angle-2">Angle 2</label>
+        <input type="number" class="angle-input input-class">
+        <label for="angle-3">Angle 3</label>
+        <input type="number" class="angle-input input-class">
+        <button id="check-triangle" class="btn-class">Check</button>
+        <p id="output"></p>
+    </div>
+    <script src="triangles.js" type="text/javascript"></script>
 </body>
 </html>
