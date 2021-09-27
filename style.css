@@ -46,3 +46,14 @@ body{
     text-decoration: none;
     padding: 0.5rem ;
 }
+
+h1{
+    margin: 2rem;
+}
+
+.input-class{
+    margin: 1rem;
+    background-color: transparent;
+    border-color: var(--text-color);
+    color: var(--text-color);
+}
