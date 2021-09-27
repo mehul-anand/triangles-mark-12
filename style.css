@@ -68,4 +68,6 @@ form{
     background-color: var(--text-color);
     color: var(--background-color);
     font-size: 1rem;
+    height: 2.5rem;
+    border-radius: 1rem;
 }
