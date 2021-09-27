@@ -61,3 +61,11 @@ h1{
 form{
     margin-bottom: 1rem;
 }
+
+.btn-class{
+    margin: 1rem;
+    width: 10rem;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    font-size: 1rem;
+}
