@@ -12,8 +12,13 @@ function sumbitAndCheck() {
         if (value === answers[index]) {
             score = score + 1;
         }index = index + 1;
-    }   
-    output.innerText = "Your Score is : " + score;
+    }
+    if (index === 3){
+        output.innerText = "Your Score is : " + score;
+    }else{
+        output.innerText = "Please answer all the questions"
+    }
+
 }
 
 submitBtn.addEventListener("click", sumbitAndCheck)
