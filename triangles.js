@@ -3,10 +3,14 @@ const checkButton = document.querySelector("#check-triangle");
 const output = document.querySelector("#output")
 
 function checkNegatives(){
-    if (Number(inputAngles[0].value)<0 || Number(inputAngles[1].value)<0 || Number(inputAngles[2].value)<0){
-        return "Negative"
+    if (Number(inputAngles[0].value ==0) || Number(inputAngles[1].value ==0) || Number(inputAngles[2].value ==0)){
+        output.innerText = "Please fill all the fields (non-zero)"
     }else{
-        return "Positive"
+        if (Number(inputAngles[0].value)<0 || Number(inputAngles[1].value)<0 || Number(inputAngles[2].value)<0){
+            output.innerText = "Angles can't be negative"
+        }else{
+            return "Positive"
+        }
     }
 }
 
@@ -22,8 +26,6 @@ function checkForTriangle(){
         }else{
             output.innerText ="No ! It is not a Triangle"
         }
-    }else{
-        output.innerText="The Angles should be positive"
     }
 }
 
