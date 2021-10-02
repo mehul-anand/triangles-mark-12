@@ -21,6 +21,7 @@ body{
     color: var(--background-color);
     border-bottom-left-radius: 1rem;
     padding: 0.3rem 1rem;
+    margin-bottom: 1rem;
 }
 .nav-bar .link {
     color:var(--background-colorr);
