@@ -72,3 +72,28 @@ form{
     border-radius: 1rem;
 }
 
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.list-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+
+footer{
+
+    color: ivory;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+footer .link{
+    color: ivory;
+    font-size: 1.7rem;
+}
+
+footer ul{
+    padding-inline-start: 0px;
+    /*this is to remove the default padding*/
+}
