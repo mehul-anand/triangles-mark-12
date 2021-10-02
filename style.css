@@ -46,11 +46,11 @@ body{
 
 .link{
     text-decoration: none;
-    padding: 0.5rem ;
+    padding: 0.5rem 1rem;
 }
 
 h1{
-    margin: 1.43rem;
+    margin: 1.rem;
 }
 
 .input-class{
@@ -75,11 +75,10 @@ form{
     border-radius: 1rem;
 }
 
-
-.link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+#output{
+    font-size: 1.1rem;
 }
+
 .list-inline-labels{
     display: inline;
     padding:0rem 0.5rem;
