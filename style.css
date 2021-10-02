@@ -58,6 +58,7 @@ h1{
     background-color: transparent;
     border-color: var(--text-color);
     color: var(--text-color);
+    height: 1.5rem;
 }
 
 form{
