@@ -5,6 +5,8 @@ const output = document.querySelector("#output");
 function checkNegatives(){
     if (Number(sides[0].value ==0) || Number(sides[1].value ==0)){
         output.innerText = "Please fill all the fields (non-zero)"
+        sides[0].placeholder = 0
+        sides[1].placeholder = 0
     }else{
         if (Number(sides[0].value)<0 || Number(sides[1].value)<0){
             output.innerText = "Sides can't be negative"

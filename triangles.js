@@ -5,6 +5,9 @@ const output = document.querySelector("#output")
 function checkNegatives(){
     if (Number(inputAngles[0].value ==0) || Number(inputAngles[1].value ==0) || Number(inputAngles[2].value ==0)){
         output.innerText = "Please fill all the fields (non-zero)"
+        inputAngles[0].placeholder = 0
+        inputAngles[1].placeholder = 0
+        inputAngles[2].placeholder = 0
     }else{
         if (Number(inputAngles[0].value)<0 || Number(inputAngles[1].value)<0 || Number(inputAngles[2].value)<0){
             output.innerText = "Angles can't be negative"
