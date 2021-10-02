@@ -7,7 +7,7 @@
 body{
     background-color: var(--background-color);
     color: var(--text-color);
-    /* margin: 1px 0px; */
+    margin: 1px 0px;
 }
 
 .container{
@@ -73,6 +73,10 @@ form{
     border-radius: 1rem;
 }
 
+.quiz-header{
+    font-size: 1.6rem;
+}
+
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -88,7 +92,7 @@ footer{
     padding: auto;
     text-align: center;
     border-top-right-radius: 1rem;
-    position:absolute;
+    position:fixed;
     bottom: 0;
     width: 100%;
 }
