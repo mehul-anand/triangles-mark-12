@@ -82,18 +82,21 @@ form{
 }
 
 footer{
-
-    color: ivory;
-    padding: 2rem 1rem;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    padding: auto;
     text-align: center;
+    border-top-right-radius: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer .link{
-    color: ivory;
+    color: var(--background-color);
     font-size: 1.7rem;
 }
 
 footer ul{
     padding-inline-start: 0px;
-    /*this is to remove the default padding*/
 }
