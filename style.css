@@ -28,8 +28,8 @@ body{
 
 .nav-pills{
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    align-items:center;
+    flex-direction:row;
 }
 .nav-bar .link-active{
     font-weight: bold;
@@ -76,7 +76,7 @@ form{
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.list-inline{
+.list-inline-labels{
     display: inline;
     padding:0rem 0.5rem;
 }
@@ -94,7 +94,7 @@ footer{
 
 footer .link{
     color: var(--background-color);
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 footer ul{
